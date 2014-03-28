@@ -7,9 +7,8 @@
     "role[Basic]",
     "role[BCPC-Hadoop-Head]",
     "recipe[bcpc-hadoop::namenode_standby]",
-    "recipe[bcpc-hadoop::oozie]",
     "recipe[bcpc-hadoop::resource_manager]",
-    "recipe[bcpc-hadoop::historyserver]"
+    "recipe[bcpc-hadoop::httpfs]"
   ],
   "description": "A highly-available head node in a BCPC Hadoop cluster",
   "chef_type": "role",
